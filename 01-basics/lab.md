@@ -37,7 +37,7 @@ Ansible uses ssh for device management. If you can't ssh to device, Ansible can'
 
 Try:
 
-    ssh \<username\>@\<managed_host\>
+    ssh <username>@<managed_host>
 
 You should be able to login.
 
@@ -68,6 +68,6 @@ While Ansible using Ad-Hoc commands not the best practice to use them, sometimes
 
 Write commands that will collect the following from group "routers":
 
-    - All devices IPs
-    - Arp table
-    - Routing table
+    - all devices IPs
+    - arp table
+    - routing table
