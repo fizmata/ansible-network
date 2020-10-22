@@ -47,7 +47,10 @@ Note: By default ssh is disabled on Cisco devices. To enable it you need to exec
 
 Create inventory file in project folder.
 
-Put group "routers" with only one address in it to your inventory file.
+Create group "routers":
+
+    [routers]
+    <ip_of_your_device>
 
 ## Task 4. Create Ansible configuration file
 
