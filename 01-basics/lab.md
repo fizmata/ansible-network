@@ -61,8 +61,7 @@ Docs: https://docs.ansible.com/ansible/latest/reference_appendices/config.html
 Parameters that should be specified:
 
     - inventory
-    - remote_user
-    - ask_pass
+    - ask_pass (if not using ssh keys)
     - gathering
 
 ## Task 5. Ansible Ad-Hoc commands
@@ -74,3 +73,7 @@ Write commands that will collect the following from group "routers":
     - all devices IPs
     - arp table
     - routing table
+
+## Hints
+
+Specify ansible_user for every device you connecting. You won't need to specify username every time after that.
