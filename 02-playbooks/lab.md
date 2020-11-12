@@ -26,7 +26,7 @@ Write there variables for:
 
 ## Task 3. Playbook with variables
 
-Put variables into your playbook from task 1. Apply plays to group "routers".
+Put variables into your playbook from task 1. Apply plays to group "routers", can be 1 or 2 devices in group, based on your resources.
 
 ## Task 4. Make your playbook idemponent
 
