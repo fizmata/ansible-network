@@ -1,1 +1,1 @@
-# Additional tasks and materials for Network Security course
+# Additional tasks and materials for Networking course
