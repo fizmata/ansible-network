@@ -28,10 +28,10 @@ Ansible server IP should be permitted in the first line of this acl. Ansible ser
 Don't allow any changes in access list if the first line doesn't allow connections from Ansible server. In this case, just print a message with explanation. Example:
 
     Acl:
-    - deny ip any any
-    - permit tcp host {{ ansible_server }} host {{ ansible_host }} eq 22
+      - deny ip any any
+      - permit tcp host {{ ansible_server }} host {{ ansible_host }} eq 22
     Msg:
-    Skipping ACL change because of possible ssh lock.
+      Skipping ACL change because of possible ssh lock.
 
 ## Task 5. Collect additional info about your devices
 
