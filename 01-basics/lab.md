@@ -15,12 +15,12 @@ In case you have Windows, it's recommended to use
 For Linux or OS X, I recommend to use Python virtual env:
 
     python3 -m venv ~/ansible-venv
-    ~/ansible-venv/bin/pip install ansible==2.9.13
+    ~/ansible-venv/bin/pip install ansible==2.11.6
     ~/ansible-venv/bin/ansible --version
 
 Last command should print something like
 
-    ansible 2.9.13
+    ansible [core 2.11.6]
 
 Then, add this line to your `~/.profile` file (if the file is missing, create it)
 so you can use 'shorter' commands:
@@ -70,7 +70,7 @@ While Ansible using Ad-Hoc commands not the best practice to use them, sometimes
 
 Write commands that will collect the following from group "routers":
 
-    - all devices IPs
+    - list of IP addresses
     - arp table
     - routing table
 
