@@ -15,7 +15,7 @@ In case you have Windows, it's recommended to use
 For Linux or OS X, I recommend to use Python virtual env:
 
     python3 -m venv ~/ansible-venv
-    ~/ansible-venv/bin/pip install ansible==2.11.6
+    ~/ansible-venv/bin/pip install ansible==4.8.0
     ~/ansible-venv/bin/ansible --version
 
 Last command should print something like
