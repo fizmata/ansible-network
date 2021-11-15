@@ -2,7 +2,7 @@
 
 ## Task 1. Simple playbook
 
-Create playbook that will configure basic device settings for single router:
+Create playbook that will configure basic device settings:
 
     - hostname
     - ntp servers
