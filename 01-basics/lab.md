@@ -20,7 +20,7 @@ For Linux or OS X, I recommend to use Python virtual env:
 
 Last command should print something like
 
-    ansible [core 2.11.6]
+    ansible [core 2.11.12]
 
 Then, add this line to your `~/.profile` file (if the file is missing, create it)
 so you can use 'shorter' commands:
